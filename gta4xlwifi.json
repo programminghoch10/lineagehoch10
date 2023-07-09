@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1687725154,
-      "filename": "lineage-20.0-20230625-UNOFFICIAL-gta4xlwifi.zip",
-      "id": "fe8fb3f8d641ad899da785e3c9ab9c9088b8e3b42cd3c0ece12d2ff48e7825e2",
+      "datetime": 1688916108,
+      "filename": "lineage-20.0-20230709-UNOFFICIAL-gta4xlwifi.zip",
+      "id": "6b8d0d7813037ae93ecb4409bf1c81d97a2872f811583d9e3bdf7aebf82f699a",
       "romtype": "UNOFFICIAL",
-      "size": 847080861,
-      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/gta4xlwifi-20.0-20230625223234/lineage-20.0-20230625-UNOFFICIAL-gta4xlwifi.zip",
+      "size": 847207055,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/gta4xlwifi-20.0-20230709172148/lineage-20.0-20230709-UNOFFICIAL-gta4xlwifi.zip",
       "version": "20.0"
     }
   ]
