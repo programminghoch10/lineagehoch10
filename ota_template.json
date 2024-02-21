@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": $TIMESTAMP,
+      "filename": "$FILENAME",
+      "id": "$ID",
+      "romtype": "$ROMTYPE",
+      "size": $SIZE,
+      "url": "$OTAURL",
+      "version": "$VERSION"
+    }
+  ]
+}
