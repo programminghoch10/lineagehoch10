@@ -14,7 +14,11 @@ cd "$(dirname "$0")"
 
 REPOURL=$(git remote get-url github || git remote get-url origin)
 [ -z "$REPOURL" ] && echo "failed to find repo url" && exit 1
-sed 's|^http.*/\([^/]*\)/\([^/]*\)$|\1 \2|' <<< "$REPOURL" | read REPOOWNER REPONAME
+sed \
+  -e 's|^http.*/\([^/]*\)/\([^/]*\)$|\1 \2|' \
+  -e 's|^git@github\.com:\([^/]*\)/\([^/]*\)$|\1 \2|' \
+  <<< "$REPOURL" | read REPOOWNER REPONAME
+REPOURL="https://github.com/$REPOOWNER/$REPONAME"
 
 [ ! -d "deploy" ] && echo "missing deploy branch checkout" && exit 1
 (
