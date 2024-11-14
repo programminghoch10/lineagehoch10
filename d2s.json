@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1731503292,
+      "filename": "lineage-22.0-20241113-UNOFFICIAL-d2s.zip",
+      "id": "1eb99ed57f811f29ee0979737c918d67049eb47552a78a0805c74ddd0ef17dd8",
+      "romtype": "UNOFFICIAL",
+      "size": 1051213029,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/d2s-22.0-20241113140812/lineage-22.0-20241113-UNOFFICIAL-d2s.zip",
+      "version": "22.0"
+    }
+  ]
+}
