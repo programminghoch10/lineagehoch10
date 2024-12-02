@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1731501799,
-      "filename": "lineage-22.0-20241113-UNOFFICIAL-gts4lv.zip",
-      "id": "2428911d6c52900470ae444cf936300798a73af421dbd424ea3f81fadef5d6a4",
+      "datetime": 1733157346,
+      "filename": "lineage-22.0-20241202-UNOFFICIAL-gts4lv.zip",
+      "id": "149692f5e6a3d3aac521d271eaac17dfb91bcf51d56677f28f7c69c6743c381d",
       "romtype": "UNOFFICIAL",
-      "size": 1041792284,
-      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/gts4lv-22.0-20241113134319/lineage-22.0-20241113-UNOFFICIAL-gts4lv.zip",
+      "size": 1042478200,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/gts4lv-22.0-20241202173546/lineage-22.0-20241202-UNOFFICIAL-gts4lv.zip",
       "version": "22.0"
     }
   ]
