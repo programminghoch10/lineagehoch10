@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1733148507,
-      "filename": "lineage-22.0-20241202-UNOFFICIAL-oriole.zip",
-      "id": "f2c4299843b8e210a16af9cbc24a64f99afd60aa591b5aed104c613f5ce58b86",
+      "datetime": 1746886219,
+      "filename": "lineage-22.2-20250510-UNOFFICIAL-oriole.zip",
+      "id": "4d5d67482ea06c4cf4ada74c9a7c1db2dbaac6a6f33da60fa74bf83e4460dc93",
       "romtype": "UNOFFICIAL",
-      "size": 1304114918,
-      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/oriole-22.0-20241202150827/lineage-22.0-20241202-UNOFFICIAL-oriole.zip",
-      "version": "22.0"
+      "size": 1302684763,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/oriole-22.2-20250510161019/lineage-22.2-20250510-UNOFFICIAL-oriole.zip",
+      "version": "22.2"
     }
   ]
 }
