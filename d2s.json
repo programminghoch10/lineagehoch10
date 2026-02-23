@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1750431181,
-      "filename": "lineage-22.2-20250620-UNOFFICIAL-d2s.zip",
-      "id": "828c4b3d136f3c37827d5ed0aa4e7cc5399cb71d45a7964c6daa5e2fa0bd36d1",
+      "datetime": 1771858258,
+      "filename": "lineage-23.2-20260223-UNOFFICIAL-d2s.zip",
+      "id": "9e344804c965d76adc8b70271e19760bbc729e0f1f3440d91eeef8fe230abe68",
       "romtype": "UNOFFICIAL",
-      "size": 1068339558,
-      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/d2s-22.2-20250620165301/lineage-22.2-20250620-UNOFFICIAL-d2s.zip",
-      "version": "22.2"
+      "size": 1154761756,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/d2s-23.2-20260223155058/lineage-23.2-20260223-UNOFFICIAL-d2s.zip",
+      "version": "23.2"
     }
   ]
 }
