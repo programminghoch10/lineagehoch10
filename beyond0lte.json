@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1750418141,
-      "filename": "lineage-22.2-20250620-UNOFFICIAL-beyond0lte.zip",
-      "id": "e237ff2e49d114eed95e4a1793c3c5805a706a9dad2f96b1e0117657b649aa7d",
+      "datetime": 1771856144,
+      "filename": "lineage-23.2-20260223-UNOFFICIAL-beyond0lte.zip",
+      "id": "0efa2bea3078aa774353d36ae13c1c9c1d141fd0320065aa35327bb9fab00b48",
       "romtype": "UNOFFICIAL",
-      "size": 1077781550,
-      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/beyond0lte-22.2-20250620131541/lineage-22.2-20250620-UNOFFICIAL-beyond0lte.zip",
-      "version": "22.2"
+      "size": 1162658714,
+      "url": "https://github.com/programminghoch10/lineagehoch10/releases/download/beyond0lte-23.2-20260223151544/lineage-23.2-20260223-UNOFFICIAL-beyond0lte.zip",
+      "version": "23.2"
     }
   ]
 }
