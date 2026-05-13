@@ -1,7 +1,10 @@
 #!/bin/bash
+#shellcheck disable=SC2034
+# this script is intended to be sourced only
 
-[ -z "$ZIP" ] && return 1
-[ -z "$REPOURL" ] && return 1
+[ -z "${ZIP:-}" ] && return 1
+[ ! -f "$ZIP" ] && return 1
+[ -z "${REPOURL:-}" ] && return 1
 
 METADATA=$(unzip -p "$ZIP" META-INF/com/android/metadata)
 
@@ -18,6 +21,6 @@ VERSION=$(cut -f2 -d'-' <<< "$FILENAME")
 SIZE=$(du -b "$ZIP" | cut -f1 -d$'\t')
 ID=$(sha256sum <<< "${TIMESTAMP}${DEVICE}${SDK_LEVEL}${ROMTYPE}${VERSION}${SIZE}" | cut -f1 -d' ')
 
-RELEASENAME="$DEVICE-$VERSION-$(date -d '@'${TIMESTAMP} +%Y%m%d%H%M%S)"
+RELEASENAME="$DEVICE-$VERSION-$(date -d '@'"${TIMESTAMP}" +%Y%m%d%H%M%S)"
 OTAURL="$REPOURL/releases/download/$RELEASENAME/$FILENAME"
 RECOVERY_NAME=$(sed -e 's/UNOFFICIAL/recovery/' -e 's/\.zip$/.img/' <<< "$FILENAME")
